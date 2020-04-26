@@ -80,8 +80,7 @@ public class CorpusBuilder {
         File savePath = new File(savePathName);
         if (savePath.exists() && !savePath.isDirectory()) {
             System.err.println("CorpusBuilder.save error!");
-            System.err
-                    .println("savePathName is exists, but it's not a directory.");
+            System.err.println("savePathName is exists, but it's not a directory.");
             System.err.println("please check path name to save");
             System.exit(1);
         }

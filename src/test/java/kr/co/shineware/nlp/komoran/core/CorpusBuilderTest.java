@@ -5,13 +5,12 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 public class CorpusBuilderTest {
-    @Ignore
+//    @Ignore
     @Test
     public void buildCorpus() {
         CorpusBuilder corpusBuilder = new CorpusBuilder();
 
 //        corpusBuilder.setExclusiveIrrRule("resources/irrDic.remove.txt");
-
         corpusBuilder.appendUserDicPath("src/test/resources/userdic/cities", "txt");
         corpusBuilder.appendUserDic("src/test/resources/userdic/president.txt");
 
